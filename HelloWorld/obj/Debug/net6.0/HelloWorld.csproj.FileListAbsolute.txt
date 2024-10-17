@@ -1,0 +1,15 @@
+/home/rener/cnsa-212-assignments/HelloWorld/bin/Debug/net6.0/HelloWorld
+/home/rener/cnsa-212-assignments/HelloWorld/bin/Debug/net6.0/HelloWorld.deps.json
+/home/rener/cnsa-212-assignments/HelloWorld/bin/Debug/net6.0/HelloWorld.runtimeconfig.json
+/home/rener/cnsa-212-assignments/HelloWorld/bin/Debug/net6.0/HelloWorld.dll
+/home/rener/cnsa-212-assignments/HelloWorld/bin/Debug/net6.0/ref/HelloWorld.dll
+/home/rener/cnsa-212-assignments/HelloWorld/bin/Debug/net6.0/HelloWorld.pdb
+/home/rener/cnsa-212-assignments/HelloWorld/obj/Debug/net6.0/HelloWorld.csproj.AssemblyReference.cache
+/home/rener/cnsa-212-assignments/HelloWorld/obj/Debug/net6.0/HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+/home/rener/cnsa-212-assignments/HelloWorld/obj/Debug/net6.0/HelloWorld.AssemblyInfoInputs.cache
+/home/rener/cnsa-212-assignments/HelloWorld/obj/Debug/net6.0/HelloWorld.AssemblyInfo.cs
+/home/rener/cnsa-212-assignments/HelloWorld/obj/Debug/net6.0/HelloWorld.csproj.CoreCompileInputs.cache
+/home/rener/cnsa-212-assignments/HelloWorld/obj/Debug/net6.0/HelloWorld.dll
+/home/rener/cnsa-212-assignments/HelloWorld/obj/Debug/net6.0/ref/HelloWorld.dll
+/home/rener/cnsa-212-assignments/HelloWorld/obj/Debug/net6.0/HelloWorld.pdb
+/home/rener/cnsa-212-assignments/HelloWorld/obj/Debug/net6.0/HelloWorld.genruntimeconfig.cache
