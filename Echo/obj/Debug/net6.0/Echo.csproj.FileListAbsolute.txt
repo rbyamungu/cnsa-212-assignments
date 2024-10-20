@@ -1,0 +1,15 @@
+/home/rener/cnsa-212-assignments/Echo/bin/Debug/net6.0/Echo
+/home/rener/cnsa-212-assignments/Echo/bin/Debug/net6.0/Echo.deps.json
+/home/rener/cnsa-212-assignments/Echo/bin/Debug/net6.0/Echo.runtimeconfig.json
+/home/rener/cnsa-212-assignments/Echo/bin/Debug/net6.0/Echo.dll
+/home/rener/cnsa-212-assignments/Echo/bin/Debug/net6.0/ref/Echo.dll
+/home/rener/cnsa-212-assignments/Echo/bin/Debug/net6.0/Echo.pdb
+/home/rener/cnsa-212-assignments/Echo/obj/Debug/net6.0/Echo.csproj.AssemblyReference.cache
+/home/rener/cnsa-212-assignments/Echo/obj/Debug/net6.0/Echo.GeneratedMSBuildEditorConfig.editorconfig
+/home/rener/cnsa-212-assignments/Echo/obj/Debug/net6.0/Echo.AssemblyInfoInputs.cache
+/home/rener/cnsa-212-assignments/Echo/obj/Debug/net6.0/Echo.AssemblyInfo.cs
+/home/rener/cnsa-212-assignments/Echo/obj/Debug/net6.0/Echo.csproj.CoreCompileInputs.cache
+/home/rener/cnsa-212-assignments/Echo/obj/Debug/net6.0/Echo.dll
+/home/rener/cnsa-212-assignments/Echo/obj/Debug/net6.0/ref/Echo.dll
+/home/rener/cnsa-212-assignments/Echo/obj/Debug/net6.0/Echo.pdb
+/home/rener/cnsa-212-assignments/Echo/obj/Debug/net6.0/Echo.genruntimeconfig.cache
