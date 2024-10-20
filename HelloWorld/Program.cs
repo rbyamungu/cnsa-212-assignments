@@ -6,7 +6,10 @@ namespace MyApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hi from CNSA 212,User!");
+            string User = args.Length > 0 ? args[0] : "user";
+
+            Console.WriteLine($"Hi from CNSA 212, {User}!");
         }
     }
 }
+
