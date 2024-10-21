@@ -4,17 +4,36 @@ namespace MyApp
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] userInput)
         {
-            string userInput = args.Length[0] > 0 ? args[0] : "userInput";
-            if (userInput[0] == "R"){
+            if (userInput.Length > 0){
 
-                Console.WriteLine($"{reverse(userInput)}");
-            }
-            else {
-                Console.WriteLine($"{userInput}")
-            }
             
+            
+                 if (userInput[0] == "R"){
+
+                     Array.Reverse(userInput);
+                    for (int i = 0; i < userInput.Length - 1; i++){
+                       
+                        string r = userInput[i];
+                        Console.Write(r + " " );
+                        
+                    }
+                   
+                    
+                }
+                else 
+                {   
+                    for (int i = 0; i < userInput.Length; i++){
+                    string r = userInput[i];
+                    Console.Write(r + " ");
+                    }
+                }
+            }
+            else
+            {
+                Console.Write("Missing userInput");
+            }
         }
     }
 }
