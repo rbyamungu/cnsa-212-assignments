@@ -2,15 +2,8 @@
 {
     partial class Form1
     {
-        /// <summary>
-        ///  Required designer variable.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        ///  Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -22,10 +15,6 @@
 
         #region Windows Form Designer generated code
 
-        /// <summary>
-        ///  Required method for Designer support - do not modify
-        ///  the contents of this method with the code editor.
-        /// </summary>
         private void InitializeComponent()
         {
             label1 = new Label();
@@ -33,7 +22,7 @@
             comboBox1 = new ComboBox();
             textBox1 = new TextBox();
             label3 = new Label();
-            textBox2 = new TextBox();
+            listBox1 = new ListBox();
             textBox3 = new TextBox();
             label4 = new Label();
             button1 = new Button();
@@ -70,7 +59,6 @@
             // 
             // textBox1
             // 
-            textBox1.BackColor = SystemColors.Window;
             textBox1.BorderStyle = BorderStyle.FixedSingle;
             textBox1.Location = new Point(166, 39);
             textBox1.Name = "textBox1";
@@ -87,23 +75,24 @@
             label3.TabIndex = 4;
             label3.Text = "Individual Results";
             // 
-            // textBox2
+            // listBox1
             // 
-            textBox2.BorderStyle = BorderStyle.FixedSingle;
-            textBox2.Location = new Point(12, 111);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(255, 23);
-            textBox2.TabIndex = 5;
-            textBox2.TextChanged += textBox2_TextChanged;
+            listBox1.BorderStyle = BorderStyle.FixedSingle;
+            listBox1.FormattingEnabled = true;
+            listBox1.ItemHeight = 15;
+            listBox1.Location = new Point(12, 111);
+            listBox1.Name = "listBox1";
+            listBox1.Size = new Size(254, 32);
+            listBox1.TabIndex = 5;
             // 
             // textBox3
             // 
             textBox3.BorderStyle = BorderStyle.FixedSingle;
             textBox3.Location = new Point(318, 111);
             textBox3.Name = "textBox3";
+            textBox3.ReadOnly = true;
             textBox3.Size = new Size(100, 23);
             textBox3.TabIndex = 6;
-            textBox3.TextChanged += textBox3_TextChanged;
             // 
             // label4
             // 
@@ -116,14 +105,12 @@
             // 
             // button1
             // 
-            button1.BackColor = Color.FromArgb(224, 224, 224);
-            button1.ImageKey = "(none)";
             button1.Location = new Point(318, 39);
             button1.Name = "button1";
             button1.Size = new Size(108, 23);
             button1.TabIndex = 8;
             button1.Text = "Roll";
-            button1.UseVisualStyleBackColor = false;
+            button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
             // Form1
@@ -134,28 +121,28 @@
             Controls.Add(button1);
             Controls.Add(label4);
             Controls.Add(textBox3);
-            Controls.Add(textBox2);
+            Controls.Add(listBox1);
             Controls.Add(label3);
             Controls.Add(textBox1);
             Controls.Add(comboBox1);
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "Form1";
-            Text = "Form1";
+            Text = "Die Roller";
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Label label1;
-        private Label label2;
-        private ComboBox comboBox1;
-        private TextBox textBox1;
-        private Label label3;
-        private TextBox textBox2;
-        private TextBox textBox3;
-        private Label label4;
-        private Button button1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button button1;
     }
 }
